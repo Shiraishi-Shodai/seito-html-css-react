@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/blog.css";
 import Section from "./Section";
 import Grid from "./Grid";
+import "../assets/css/blog.css";
 import { blogItems } from "../items/blogItems";
 function Blog() {
   const sectionProps = {"headline" : "Blog", "secondary": false};

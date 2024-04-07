@@ -1,6 +1,5 @@
-import "../css/feature.css";
+import "../assets/css/feature.css";
 import Section from "./Section";
-import "../css/grid.css";
 import Grid from "./Grid";
 import { featureItems } from "../items/featureItems";
 

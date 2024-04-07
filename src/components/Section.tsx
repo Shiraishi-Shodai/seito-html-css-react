@@ -1,6 +1,5 @@
 import {FC} from "react";
-import '../css/section.css';
-import "../types/section";
+import '../assets/css/section.css';
 import { SectionProps } from "../types/section";
 
 export const Section: FC<SectionProps> = ({headline, secondary,children})=> {

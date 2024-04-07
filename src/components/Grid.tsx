@@ -1,8 +1,7 @@
 import React, { FC } from "react";
 import { GridProps } from "../types/grid";
-
+import "../assets/css/grid.css";
 export const Grid: FC<GridProps> = ({ itemCol, children }) => {
-  console.log(children);
   return (
     <>
       <ul className={`grid grid-col${itemCol}`}>
