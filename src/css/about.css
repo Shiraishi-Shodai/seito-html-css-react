@@ -1,0 +1,23 @@
+.about-figure {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+.about-figure img {
+  padding: 0 10px;
+  width: 60%;
+}
+.about-figure .about-caption {
+  width: 100%;
+  padding: 0 10px;
+  text-align: left;
+  display: block;
+}
+.about-figure .about-caption .about-headline {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+.about-figure .about-caption .about-description {
+  margin: 0;
+  font-size: 15px;
+}/*# sourceMappingURL=about.css.map */

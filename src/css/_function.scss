@@ -1,0 +1,8 @@
+@function gridColCalc($col) {
+    @return percentage(1 / $col);
+}
+
+@mixin aTagBaseStyle($color) {
+    text-decoration: none;
+    color: $color
+}

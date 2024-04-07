@@ -1,0 +1,15 @@
+.feature {
+  text-align: center;
+}
+.feature .feature-headline {
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.feature .feature-img {
+  margin: 0 0 20px;
+}
+.feature .feature-description {
+  margin: 0;
+  text-align: left;
+}/*# sourceMappingURL=feature.css.map */

@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import "variable";
+
+
+.about-figure{
+    display: flex;
+    margin: 0;
+    align-items: center;
+
+    img {
+        padding: 0 10px;
+        width: 60%;
+    }
+    
+    .about-caption{
+        width: 100%;
+        padding: 0 10px;
+        text-align: left;
+        display: block;
+
+        .about-headline{
+            margin: 0 0 10px;
+            font-size: 30px;
+        }
+        .about-description {
+            margin: 0;
+            font-size: 15px;
+        }
+    }
+}

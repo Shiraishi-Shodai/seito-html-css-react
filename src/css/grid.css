@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.grid .grid-item {
+  list-style: none;
+}
+
+.grid-col2 .grid-item {
+  width: 50%;
+}
+
+.grid-col3 .grid-item {
+  width: 33.3333333333%;
+}
+
+.grid-col4 .grid-item {
+  width: 25%;
+}/*# sourceMappingURL=grid.css.map */
