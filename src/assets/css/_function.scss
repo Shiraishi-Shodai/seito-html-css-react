@@ -1,8 +1,30 @@
 @function gridColCalc($col) {
-    @return percentage(1 / $col);
+  @return percentage(1 / $col);
 }
 
 @mixin aTagBaseStyle($color) {
-    text-decoration: none;
-    color: $color
+  text-decoration: none;
+  color: $color;
+}
+
+// ボタン用のCSS
+@mixin selectionButtonStyle() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin buttonTagBaseStyle($flag, $bgColor) {
+  @if $flag == "true" {
+    @include aTagBaseStyle($baseWhite);
+  }
+  transition: box-shadow 0.25s;
+  background-color: $bgColor;
+  padding: 15px 60px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 5px 5px 5px #b39e9e;
+  font-weight: bold;
+  &:hover {
+    box-shadow: none;
+  }
 }

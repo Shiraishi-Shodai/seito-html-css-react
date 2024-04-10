@@ -9,3 +9,7 @@ body {
     Meiryo,
     sans-serif;;
 }
+
+select, input, button, textarea, label, th {
+    cursor: pointer;
+}

@@ -2,6 +2,7 @@ import './App.css'
 import About from "./components/About";
 import Feature from "./components/Feature";
 import Blog from './components/Blog';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
      <About/>
      <Feature/>
      <Blog/>
-    </>
+     <Contact/>
+     </>
   )
 }
 

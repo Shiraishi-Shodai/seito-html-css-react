@@ -1,0 +1,41 @@
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact form table tr th {
+  font-size: 15px;
+  padding: 5px 30px;
+}
+.contact form table tr td {
+  padding: 10px;
+}
+.contact form table tr td .select {
+  min-width: 500px;
+}
+.contact form table tr td .input {
+  min-width: 500px;
+}
+.contact form table tr td .gender-label {
+  padding-right: 15px;
+}
+.contact form table tr td .textarea {
+  min-width: 500px;
+}
+.contact form .selection-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact form .selection-button .button {
+  transition: box-shadow 0.25s;
+  background-color: #fff;
+  padding: 15px 60px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 5px 5px 5px #b39e9e;
+  font-weight: bold;
+}
+.contact form .selection-button .button:hover {
+  box-shadow: none;
+}/*# sourceMappingURL=contact.css.map */

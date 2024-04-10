@@ -4,23 +4,60 @@
 @import "variable";
 
 .card {
+  padding: 0 10px;
+  position: relative;
+
     .card-link {
       @include aTagBaseStyle($baseBlack);
-  }
-  .card-label {
-  }
-  .card-image {
-  }
-  .card-title {
-  }
+    transition: all 0.25;
 
-  .card-description {
+      &:hover {
+        filter: brightness(0.5);
+      }
+      .card-label {
+        position: absolute;
+        background-color: gray;
+        color: $baseWhite;
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+      .card-image {
+        width: 100%;
+      }
+      .card-time {
+        text-align: center;
+      }
+      .card-title {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+      }
+    
+      .card-description {
+      }
+    
+      .avatar {
+        display: flex;
+        align-items: center;
+    
+        .avatar-icon {
+          overflow: hidden;
+          border-radius: 5px;
+          img {
+            border-radius: 50%;
+            margin-right: 10px;;
+          }
+        }
+        .avatar-name {
+        }
+      }
   }
+  
+}
 
-  .avatar {
-    .avatar-icon {
-    }
-    .avatar-name {
-    }
+.selection-button {
+  @include selectionButtonStyle();
+  .button {
+    @include buttonTagBaseStyle("true", #555);
   }
 }
